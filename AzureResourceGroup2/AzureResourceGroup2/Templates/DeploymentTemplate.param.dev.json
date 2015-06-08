@@ -1,0 +1,33 @@
+﻿{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "newStorageAccountName": {
+            "value": "benad0618"
+        },
+        "location": {
+            "value": "West US"
+        },
+        "dnsPrefix": {
+            "value": "adarm2"
+        },
+        "virtualNetworkAddressRange": {
+            "value": "10.5.0.0/16"
+        },
+        "adSubnet": {
+            "value": "10.5.0.0/24"
+        },
+        "adPDCNicIPAddress": {
+            "value": "10.5.0.4"
+        },
+        "adBDCNicIPAddress": {
+            "value": "10.5.0.5"
+        },
+        "adminUsername": {
+            "value": "ben"
+        },
+        "adminPassword": {
+            "value": "Sandra778"
+        }
+    }
+}
